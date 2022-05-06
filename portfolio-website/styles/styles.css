@@ -55,7 +55,7 @@ a:active {
   --size-50: 50px;
   --size-2em: 2em;
   --size-3em: 3em;
-  --tranistion-main: all 0.15s ease-in-out;
+  --tranistion-main: all 0.2s ease-in-out;
 }
 
 .button {
