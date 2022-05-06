@@ -43,25 +43,32 @@ input {
   width: 50%;
 }
 
+.linkWrapper {
+  margin: var(--size-LG) 0;
+}
+
 .socialLinks {
   border-bottom: 2px solid var(--color-gray-2);
+  color: var(--color-gray-3);
 }
 
 .urlLink {
   display: flex;
   padding: var(--size-XL);
   margin: var(--size-MD);
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   border-radius: var(--size-MD);
+  transition: var(--tranistion-main);
 }
 
 .urlLink:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-hover);
   cursor: pointer;
 }
 
 .urlLinkText {
-  margin-left: var(--size-MD);
+  margin-left: var(--size-LG);
+  color: var(--color-gray-3);
 }
 
 .input:focus {
@@ -69,6 +76,11 @@ input {
   outline: none;
   box-shadow: 0 0 2px 3.5px var(--color-highlight);
   border: none;
+}
+
+.socialIcon {
+  width: 24px;
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
