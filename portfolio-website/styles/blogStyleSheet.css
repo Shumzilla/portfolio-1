@@ -1,0 +1,131 @@
+@import url(/styles/styles.css);
+@import url(/src/fonts/DMSerifText-Regular.ttf);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.landingContent {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 0px auto;
+  width: 90%;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px solid var(--color-highlight);
+  margin-bottom: var(--size-3em);
+}
+
+.welcometoBlog {
+  color: var(--color-gray-2);
+  font-family: 'DM Serif Text', serif;
+}
+
+.spaceSM {
+  margin: 20px auto;
+}
+
+.spaceMD {
+  margin: 40px auto;
+}
+
+.spaceLG {
+  margin: 60px auto;
+}
+
+.spaceXL {
+  margin: 80px auto;
+}
+
+.spaceXXL {
+  margin: 100px auto;
+}
+
+.subtitle,
+p,
+h2,
+h3,
+h4,
+h5 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  color: var(--color-gray-2);
+}
+
+.blogMain {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 104px auto;
+  width: 90%;
+  max-width: 800px;
+  gap: var(--size-XXXL);
+}
+
+.blogPreview {
+  display: flex;
+  flex-direction: row;
+  border-radius: var(--size-LG);
+  background-color: var(--color-secondary);
+  padding: var(--size-LG) var(--size-XL);
+  justify-content: center;
+}
+
+.blogTitle,
+.fullArticleLink {
+  font-family: 'DM Serif Text', serif;
+}
+
+.blogTitle {
+  line-height: 32px;
+  margin-bottom: var(--size-SM);
+}
+
+.dateStamp {
+  color: var(--color-highlight);
+  font-weight: 800;
+  margin-bottom: var(--size-XL);
+}
+
+.fullArticleLink {
+  color: white;
+  padding: var(--size-XL) var(--size-XXL);
+  background-color: var(--color-highlight);
+  border-radius: var(--size-50);
+  margin: var(--size-XL) 0;
+}
+
+.fullArticleLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blogThumbnail {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  padding-right: 24px;
+  transition: all 0.15s ease-in-out;
+}
+
+.blogPreviewText {
+  transition: all 0.15s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .blogMain {
+    width: 80%;
+    align-items: center;
+  }
+
+  .blogPreview {
+    flex-direction: column;
+    width: 100%;
+    border-radius: var(--size-LG);
+    padding: var(--size-LG) var(--size-XL);
+  }
+  .blogThumbnail {
+    width: 300px;
+    height: 100%;
+    padding-bottom: 16px;
+  }
+}
