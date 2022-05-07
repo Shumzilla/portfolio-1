@@ -49,7 +49,7 @@
   min-width: 420px;
   background-color: var(--color-secondary);
   border-radius: var(--size-MD);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 .portfolioPiece:hover {

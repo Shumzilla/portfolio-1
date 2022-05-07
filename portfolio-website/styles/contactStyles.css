@@ -36,7 +36,7 @@ input {
     sans-serif;
   font-size: 16px;
   border-radius: var(--size-MD);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
   border: none;
 }
 
@@ -62,7 +62,7 @@ input {
   margin: var(--size-MD);
   background-color: var(--color-secondary);
   border-radius: var(--size-MD);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
   width: auto;
 }
 

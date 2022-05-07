@@ -39,14 +39,14 @@ a:active {
   --size-50: 50px;
   --size-2em: 2em;
   --size-3em: 3em;
-  --tranistion-main: all 0.2s ease-in-out;
+  --transition-main: all 0.2s ease-in-out;
 }
 
 .logo {
   margin-top: var(--size-XXL);
   font-size: var(--size-2em);
   color: var(--color-highlight);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 body {
@@ -54,7 +54,7 @@ body {
   font-family: 'DM Serif Text', serif;
   font-size: 1.25rem;
   color: var(--color-white);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 .mainContentWrapper {
@@ -122,7 +122,7 @@ body {
   justify-content: center;
   padding: var(--size-LG) var(--size-XL);
   border-radius: var(--size-LG);
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
   margin: 0 var(--size-MD);
 }
 
@@ -155,19 +155,19 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 .title {
   font-size: 3em;
   line-height: 64px;
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 .subtitle {
   margin-top: 12px;
   line-height: 24px;
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
   margin: 0;
 }
 
@@ -177,12 +177,12 @@ body {
   align-content: center;
   justify-content: center;
   margin: var(--size-3em) auto;
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 .landingContentText {
   margin-left: 24px;
-  transition: var(--tranistion-main);
+  transition: var(--transition-main);
 }
 
 @media only screen and (max-width: 768px) {
@@ -204,7 +204,7 @@ body {
   .ryanImage {
     width: 120px;
     height: 120px;
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
   }
 
   .landingContent {
@@ -213,34 +213,34 @@ body {
     align-content: center;
     justify-content: center;
     margin: var(--size-3em) auto;
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
   }
 
   .landingContentText {
     margin-left: 0px;
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
   }
 
   .title {
     font-size: 2em;
     line-height: 48px;
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
   }
 
   .subtitle {
     margin-top: 14px;
     line-height: 20px;
     width: 75%;
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
   }
 
   .footer {
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
     padding: var(--size-MD) 0;
   }
 
   .logo {
-    transition: var(--tranistion-main);
+    transition: var(--transition-main);
     font-size: 1.5em;
   }
 
