@@ -223,7 +223,7 @@ li::before {
   flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-evenly;
   -ms-flex-line-pack: center;
   align-content: center;
   margin: auto;
@@ -419,6 +419,7 @@ li::before {
 
   .mainContentWrapper {
     max-width: 600px;
+    margin: 0 24px;
   }
   .ryanImage {
     width: 160px;
