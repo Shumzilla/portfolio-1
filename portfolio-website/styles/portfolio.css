@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--size-XXL);
+  gap: 32px;
 }
 
 .portfolioPiece {
