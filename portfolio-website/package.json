@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "ryan shumway personal website",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanshumway/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "ryan shumway @ryanshumwa-twitter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanshumway/portfolio/issues"
+  },
+  "homepage": "https://github.com/ryanshumway/portfolio#readme"
+}
