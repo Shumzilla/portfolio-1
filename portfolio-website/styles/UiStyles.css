@@ -24,6 +24,7 @@ p {
 
 .mainContentWrapper {
   max-width: 1200px;
+  padding: var(--size-XXXL) 48px;
 }
 
 .sectionHeader {
@@ -37,6 +38,7 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
   gap: var(--size-XXXL);
+  margin: 24px 48px;
 }
 
 .card {
@@ -60,8 +62,17 @@ p {
   transform: scale(0.995);
 }
 
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--size-MD);
+}
+
 .cardImage {
   border-radius: var(--size-MD);
+  height: 100%;
+  min-width: 400px;
 }
 
 .cardSubtitle {
@@ -69,6 +80,9 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  .mainContentWrapper {
+    padding: 0;
+  }
   .cardRow {
     flex-direction: column;
     justify-content: center;
@@ -76,7 +90,7 @@ p {
   }
 
   .card {
-    width: 80%;
+    width: 90%;
     gap: var(--size-MD);
     transition: var(--transition-main);
   }
